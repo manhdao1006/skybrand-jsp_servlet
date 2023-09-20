@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 3, 2023, 1:23:05 PM
+    Author     : LENOVO
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.block_login{
+    margin: 5% 25%;
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+}
+.block_login > .formLogin{
+    padding-top: 15px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    padding-bottom: 15px;
+}
+.formLogin > .form_main{
+    margin: 0 auto;
+    width: 90%;
+}
+.formLogin > .form_main > .lbl, .ckb{
+    width: 80%;
+    padding: 10px 10px 10px 0px;
+}
+.formLogin > .form_main > .txt{
+    margin: 0 auto;
+    width: 80%;
+    height: 15%;
+    padding: 10px;
+}
+.formLogin > .form_main > .btnLogin,
+.formLogin > .form_main > .btnSignup{
+    text-align: center;
+    margin-top: 15px;
+}
+.formLogin > .form_main > .btnLogin > .btn,
+.formLogin > .form_main > .btnSignup > .btn{
+    width: 30%;
+    padding: 10px 10px 10px 0px;
+}
+.formLogin > .form_main > .btnSignup{
+    
+}
+.formLogin > .form_main > .btnSignup > .btn{
+    
+}
